@@ -147,7 +147,7 @@ function read_data() {
 <input type="button" id="delete{$entry['row_no']}" value="削除" style='float:right;width:100px;' class="btn btn-outline-dark btn-sm">
 <span class='spanlink' id='row{$entry['row_no']}'>{$entry['subject']}</span>
 <span>( {$entry['from']} : {$entry['cdate']} ) </span>
-<div>{$entry['body']}</div></div>
+<div class="body_text">{$entry['body']}</div></div>
 LOG;
 
         $kensu++;
